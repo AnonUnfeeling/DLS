@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="center"
+            android:text="@string/about_you"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeForCategory" />
+
+        <EditText
+            android:id="@+id/aboutYouEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="top"
+            android:hint="@string/about_you_hint"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="center"
+            android:text="@string/target_audience"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeForCategory" />
+
+        <EditText
+            android:id="@+id/targetAudienceEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="top"
+            android:hint="@string/target_audience_hint"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="center"
+            android:text="@string/application_creation_reason"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeForCategory" />
+
+        <EditText
+            android:id="@+id/applicationCreationReasonEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="top"
+            android:hint="@string/application_creation_reason_hint"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_all"
+                android:gravity="center"
+                android:text="@string/platforms"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textSizeForCategory" />
+
+            <CheckBox
+                android:id="@+id/androidCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android" />
+
+            <CheckBox
+                android:id="@+id/appleCheckBox"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="Apple iOS" />
+
+            <CheckBox
+                android:id="@+id/windowsCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Windows Phone" />
+
+            <CheckBox
+                android:id="@+id/siteCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Для приложения необходим сайт" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_all"
+                android:gravity="center"
+                android:text="@string/functions"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textSizeForCategory" />
+
+            <CheckBox
+                android:id="@+id/paidContentCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/paid_content" />
+
+            <CheckBox
+                android:id="@+id/pushNotificationCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pushNotif" />
+
+            <CheckBox
+                android:id="@+id/locationCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/location" />
+
+            <CheckBox
+                android:id="@+id/cameraCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/camera" />
+
+            <CheckBox
+                android:id="@+id/passCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pass" />
+
+            <CheckBox
+                android:id="@+id/socialCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/social" />
+
+            <CheckBox
+                android:id="@+id/controlSystemCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/control_system" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_all"
+                android:gravity="center"
+                android:text="@string/web_api"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textSizeForCategory" />
+
+            <CheckBox
+                android:id="@+id/noWebApiCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/noWebApi" />
+
+            <CheckBox
+                android:id="@+id/fromYouCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fromYouWebApi" />
+
+            <CheckBox
+                android:id="@+id/fromMeCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fromMeWebApi" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_all"
+                android:gravity="center"
+                android:text="@string/tex"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textSizeForCategory" />
+
+            <CheckBox
+                android:id="@+id/garantCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/garant" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="center"
+            android:text="@string/contact_info"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeForCategory" />
+
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/number_phone_hint"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_phone_hint"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/siteEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/site_phone_hint"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/faceEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/contact_face"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+</ScrollView>

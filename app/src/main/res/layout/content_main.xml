@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jdroidcoder.dls_dev.activities.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="center"
+            android:text="@string/title_about_us"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeDefault"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="center"
+            android:text="@string/multi_platform_project_title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:text="@string/multi_platform_project_description"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="center"
+            android:text="@string/prototype_title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:text="@string/prototype_description"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="center"
+            android:text="@string/design_title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:text="@string/design_description"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="center"
+            android:text="@string/dev_title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:text="@string/dev_description"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="center"
+            android:text="@string/testing_title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:text="@string/testing_description"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="center"
+            android:text="@string/tex_title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:text="@string/tex_description"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:gravity="center"
+            android:text="@string/marceting_title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:text="@string/marceting_description"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeDefault" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_all"
+            android:text="@string/other_description"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textSizeDefault" />
+    </LinearLayout>
+</ScrollView>
