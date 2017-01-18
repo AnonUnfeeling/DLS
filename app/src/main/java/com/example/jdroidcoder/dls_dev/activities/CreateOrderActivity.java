@@ -177,7 +177,7 @@ public class CreateOrderActivity extends AppCompatActivity implements View.OnCli
         protected Integer doInBackground(Void... params) {
             GMailSender sender = new GMailSender("sendorder123", "qwerty123321");
             try {
-                sender.sendMail("Прошу принять заказ", createMessageText(), "sendorder123@gmail.com", "anonunfeeling1@gmail.com");
+                sender.sendMail("Прошу принять заказ", createMessageText(), "sendorder123@gmail.com", "diglabstudio@gmail.com");
                 return 0;
             } catch (Exception e) {
                 e.printStackTrace();
